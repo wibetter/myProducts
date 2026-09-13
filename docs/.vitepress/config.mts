@@ -8,9 +8,16 @@ export default defineConfig({
   base,
   outDir: '../html',
   assetsDir: './assets',
+  vite: {
+    publicDir: '../public',
+  },
   title: 'wibetter',
   description:
     'wibetter 产品展示集，涵盖开源 JSON 编辑器、前端脚手架、BI 报表可视化编辑器、AI 智能问卷与商业化产品等',
+  head: [
+    // 百度统计：public/js/tongji.js，构建后每个 HTML 页面 head 中都会引入
+    ['script', { src: `${base}js/tongji.js` }],
+  ],
   themeConfig: {
     search: {
       provider: 'local'
