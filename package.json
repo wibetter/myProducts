@@ -1,0 +1,29 @@
+{
+  "name": "my-products",
+  "version": "1.0.0",
+  "description": "wibetter 产品展示集，含开源 JSON 编辑器、前端脚手架、BI 报表可视化编辑器、AI 智能问卷与商业化产品等",
+  "author": "wibetter",
+  "keywords": [
+    "产品展示集",
+    "json-editor",
+    "akfun",
+    "amis-reports",
+    "AI 智能问卷"
+  ],
+
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "vitepress": "^1.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wibetter/myProducts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wibetter/myProducts/issues"
+  }
+}
