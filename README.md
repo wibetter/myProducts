@@ -3,7 +3,7 @@
 wibetter 产品展示集，含开源 JSON 编辑器、前端脚手架、BI 报表可视化编辑器、AI 智能问卷与商业化产品等。
 
 ## 在线预览
-[https://wibetter.github.io/myProducts/html/](https://wibetter.github.io/myProducts/html/)
+[https://wbetter.netlify.app](https://wbetter.netlify.app/)
 
 ## 本地运行
 

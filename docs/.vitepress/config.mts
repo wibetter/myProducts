@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 // 部署地址：https://wibetter.github.io/myProducts/html
-const base = '/myProducts/html/'
+const base = '/'
 
 export default defineConfig({
   base,
